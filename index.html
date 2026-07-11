@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Residential and commercial pest control for Michigan homes and businesses. Contact Pest Guard 360 for an inspection and treatment plan.">
+  <meta name="theme-color" content="#0d1a2b">
+  <title>Pest Guard 360 | Residential and Commercial Pest Control</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script src="assets/js/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="./" aria-label="Pest Guard 360 home">
+        <img src="assets/images/pest-guard-logo-light.png" alt="Pest Guard 360" width="1078" height="344">
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+        <span class="sr-only">Open navigation</span>
+      </button>
+
+      <nav class="primary-nav" id="primary-navigation" aria-label="Primary navigation">
+        <a href="#services">Services</a>
+        <a href="#residential-commercial">Residential &amp; Commercial</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="button button--primary header-quote" href="#quote">Request a Quote</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="section-label section-label--light">Residential and commercial pest control</p>
+          <h1 id="hero-title">Pest control for Michigan homes and businesses.</h1>
+          <p class="hero-summary">Pest Guard 360 provides inspection, treatment and prevention services based on the property and the pest problem.</p>
+          <div class="hero-actions">
+            <a class="button button--primary" href="#services">View Services</a>
+            <a class="button button--outline-light" href="tel:3139142981">Call (313) 914-2981</a>
+          </div>
+        </div>
+
+        <aside class="quote-card" id="quote" aria-labelledby="quote-title">
+          <h2 id="quote-title">Request a Free Quote</h2>
+          <p>Send the basic details and a Pest Guard 360 representative will follow up.</p>
+
+          <form class="quote-form" id="quote-form" action="mailto:hello@pestguard360.com?subject=Website%20quote%20request" method="post" enctype="text/plain">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required>
+            </div>
+
+            <div class="form-row">
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required>
+              </div>
+              <div class="form-field">
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+              </div>
+            </div>
+
+            <div class="form-field">
+              <label for="service">Service needed</label>
+              <select id="service" name="service">
+                <option value="">Not sure yet</option>
+                <option>General Pest Control</option>
+                <option>Rodent Control</option>
+                <option>Wildlife Management</option>
+                <option>Bed Bug Treatment</option>
+                <option>Inspection &amp; Monitoring</option>
+                <option>Exclusion Services</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="message">What are you seeing?</label>
+              <textarea id="message" name="message" rows="4"></textarea>
+            </div>
+
+            <button class="button button--primary button--full" type="submit">Send Quote Request</button>
+            <p class="form-note">Your email app will open with the request ready to send.</p>
+            <p class="form-status" id="form-status" aria-live="polite"></p>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Services</p>
+          <h2 id="services-title">Pest control services</h2>
+          <p>Treatment and prevention options for common pests, rodents, wildlife, bed bugs and recurring pest activity.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card service-card--general" id="general-pest-control">
+            <div class="service-card__content">
+              <h3>General Pest Control</h3>
+              <p>Routine treatment for ants, cockroaches, spiders and other common household or commercial pests.</p>
+              <a href="#quote" data-service="General Pest Control">Request this service <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="service-card service-card--rodents" id="rodent-control">
+            <div class="service-card__content">
+              <h3>Rodent Control</h3>
+              <p>Inspection, trapping, monitoring and entry-point recommendations for mice and rats.</p>
+              <a href="#quote" data-service="Rodent Control">Request this service <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="service-card service-card--wildlife" id="wildlife-management">
+            <div class="service-card__content">
+              <h3>Wildlife Management</h3>
+              <p>Humane removal and exclusion planning for nuisance wildlife around homes and commercial properties.</p>
+              <a href="#quote" data-service="Wildlife Management">Request this service <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="service-card service-card--bed-bugs" id="bed-bug-treatment">
+            <div class="service-card__content">
+              <h3>Bed Bug Treatment</h3>
+              <p>Inspection and treatment options based on the size and location of the infestation.</p>
+              <a href="#quote" data-service="Bed Bug Treatment">Request this service <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="service-card service-card--inspection" id="inspection-monitoring">
+            <div class="service-card__content">
+              <h3>Inspection &amp; Monitoring</h3>
+              <p>Scheduled inspections and documentation for homes, rentals and commercial facilities.</p>
+              <a href="#quote" data-service="Inspection &amp; Monitoring">Request this service <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="service-card service-card--exclusion" id="exclusion-services">
+            <div class="service-card__content">
+              <h3>Exclusion Services</h3>
+              <p>Sealing accessible gaps and entry points to reduce repeat pest activity.</p>
+              <a href="#quote" data-service="Exclusion Services">Request this service <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--white" id="residential-commercial" aria-labelledby="property-services-title">
+      <div class="container">
+        <h2 class="sr-only" id="property-services-title">Residential and commercial pest services</h2>
+
+        <article class="property-service">
+          <div class="property-service__image">
+            <img src="assets/images/residential-service.jpg" alt="A child and dog relaxing in a yard" width="1200" height="800">
+          </div>
+          <div class="property-service__content">
+            <p class="section-label">Residential</p>
+            <h3>Home Pest Control</h3>
+            <p>We inspect the property, identify where the activity is coming from and recommend a treatment plan based on what we find.</p>
+            <a class="button button--outline-dark" href="#quote">Get a Home Estimate</a>
+          </div>
+        </article>
+
+        <article class="property-service property-service--reverse">
+          <div class="property-service__image">
+            <img src="assets/images/commercial-service.jpg" alt="A Pest Guard 360 technician inspecting a commercial property" width="1200" height="675">
+          </div>
+          <div class="property-service__content">
+            <p class="section-label">Commercial</p>
+            <h3>Commercial Pest Services</h3>
+            <p>Service plans for offices, warehouses, restaurants, multifamily properties and other commercial sites, with scheduled visits and documentation.</p>
+            <a class="button button--outline-dark" href="#quote">Request a Consultation</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="container about-content">
+        <p class="section-label section-label--light">Why Pest Guard 360</p>
+        <h2 id="about-title">Local service and clear recommendations.</h2>
+        <p class="about-intro">Pest activity changes with Michigan weather and with the way each property is built and used. Our service starts with an inspection and a practical plan.</p>
+
+        <ol class="about-list">
+          <li>
+            <span>1</span>
+            <h3>Michigan experience</h3>
+            <p>Service recommendations account for seasonal pest activity and common local building conditions.</p>
+          </li>
+          <li>
+            <span>2</span>
+            <h3>Residential and commercial work</h3>
+            <p>Plans are adjusted for homes, rental properties, offices, warehouses and other commercial sites.</p>
+          </li>
+          <li>
+            <span>3</span>
+            <h3>Inspection before treatment</h3>
+            <p>We identify the pest, the affected areas and likely entry points before recommending the next step.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="contact-banner" aria-labelledby="contact-banner-title">
+      <div class="container contact-banner__content">
+        <div>
+          <div class="family-mark">
+            <img src="assets/images/pest-guard-logo-dark.png" alt="Pest Guard 360" width="1078" height="344">
+            <span>Part of the Stop Pest Control family</span>
+          </div>
+          <h2 id="contact-banner-title">Need an inspection or treatment estimate?</h2>
+          <p>Call or send a quote request and tell us what you are seeing.</p>
+        </div>
+        <div class="contact-banner__actions">
+          <a class="button button--light" href="#quote">Request a Quote</a>
+          <a class="button button--outline-light" href="tel:3139142981">Call (313) 914-2981</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/images/pest-guard-logo-dark.png" alt="Pest Guard 360" width="1078" height="344">
+        <p>Residential and commercial pest control for Michigan homes and businesses.</p>
+      </div>
+
+      <div class="footer-column">
+        <h2>Services</h2>
+        <ul>
+          <li><a href="#general-pest-control">General Pest Control</a></li>
+          <li><a href="#rodent-control">Rodent Control</a></li>
+          <li><a href="#wildlife-management">Wildlife Management</a></li>
+          <li><a href="#bed-bug-treatment">Bed Bug Treatment</a></li>
+          <li><a href="#inspection-monitoring">Inspection &amp; Monitoring</a></li>
+          <li><a href="#exclusion-services">Exclusion Services</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h2>Company</h2>
+        <ul>
+          <li><a href="#about">About Pest Guard 360</a></li>
+          <li><a href="#residential-commercial">Property Services</a></li>
+          <li><a href="#quote">Request a Quote</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h2>Contact</h2>
+        <address>
+          <a href="tel:3139142981">(313) 914-2981</a>
+          <a href="mailto:hello@pestguard360.com">hello@pestguard360.com</a>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=18906+Dix+Rd,+Melvindale,+MI+48122" target="_blank" rel="noopener noreferrer">18906 Dix Rd<br>Melvindale, MI 48122</a>
+        </address>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Pest Guard 360. Part of the Stop Pest Control family.</p>
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="announcement" id="company-announcement" aria-labelledby="announcement-title" aria-describedby="announcement-copy">
+    <form method="dialog">
+      <button class="announcement__close" value="close" aria-label="Close announcement">&times;</button>
+      <img class="announcement__stop-logo" src="assets/images/stop-pest-control.png" alt="Stop Pest Control" width="500" height="474">
+      <p class="announcement__lead">Stop Pest Control is now part of</p>
+      <img class="announcement__brand-logo" src="assets/images/pest-guard-logo-dark.png" alt="Pest Guard 360" width="1078" height="344">
+      <h2 id="announcement-title">The Pest Guard 360 family</h2>
+      <p id="announcement-copy">The same local team now has access to expanded service resources and technology through Pest Guard 360.</p>
+      <button class="button button--primary button--full" value="close">Continue to Site</button>
+    </form>
+  </dialog>
+</body>
+</html>
