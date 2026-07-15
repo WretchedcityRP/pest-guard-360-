@@ -97,7 +97,7 @@ if (announcement && typeof announcement.showModal === 'function') {
     try {
       sessionStorage.setItem('pg360-announcement-seen', 'true');
     } catch {
-      sessionStorage.removeItem('pg360-announcement-seen');
+      return;
     }
   });
 

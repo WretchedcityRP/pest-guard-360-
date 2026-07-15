@@ -494,6 +494,20 @@ p {
   background-image: url("../images/service-exclusion.jpg");
 }
 
+.service-card--mosquito {
+  background-image: url("../images/service-mosquito-treatment.jpg");
+  background-position: center 56%;
+}
+
+.service-card--featured {
+  grid-column: 1 / -1;
+  min-height: 280px;
+}
+
+.service-card--featured .service-card__content {
+  max-width: 720px;
+}
+
 .service-card__content {
   width: 100%;
   padding: 26px;
@@ -605,10 +619,11 @@ p {
 }
 
 .about-list li {
-  padding: 24px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 26px;
+  background: var(--white);
+  border: 1px solid rgba(13, 26, 43, 0.08);
   border-radius: 12px;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.16);
 }
 
 .about-list li > span {
@@ -626,13 +641,13 @@ p {
 
 .about-list h3 {
   margin-top: 16px;
-  color: var(--white);
+  color: var(--navy);
   font-size: 1rem;
 }
 
 .about-list p {
   margin-top: 8px;
-  color: #b6c0cf;
+  color: var(--text-muted);
   font-size: 0.86rem;
   line-height: 1.6;
 }
