@@ -76,7 +76,7 @@ if (quoteForm) {
       formStatus.textContent = 'Opening your email app. Review the message and press send.';
     }
 
-    window.location.href = `mailto:hello@pestguard360.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = `mailto:team@pestguard360.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   });
 }
 
